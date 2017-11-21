@@ -1,0 +1,49 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  width: 700px !important;
+  padding:auto;
+  margin:auto;
+}
+li {
+  list-style: none;
+}
+h1 {
+  font-size: 40px !important;
+  font-weight: bold !important;
+}
+h3 {
+  font-size: 18px !important;
+  font-weight: normal !important;
+}
+.navbar-articles {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background-color: rgba(230, 230, 230, 0.2);
+  transition: all 0.3s ease;
+  height: 50px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+.navbar-articles-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+.navbar-articles-link {
+  color: #616668;
+  font-size: 14px;
+}
+.navbar-articles-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}
+
